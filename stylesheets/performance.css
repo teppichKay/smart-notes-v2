@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+
+}
+
+button {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.css-animation {
+  animation: animate 6s linear 0s infinite alternate;
+  -webkit-animation: animate 6s linear 0s infinite alternate;
+}
+
+#header {
+  position: fixed;
+  font-size: 20px;
+  height: 20px;
+  top: 5px;
+}
+
+#box-container {
+  margin-top: 30px;
+}
+
+#box-container:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@keyframes animate {
+  0%   {transform: translateX(0) rotate(0deg) scale(0.6)}
+  100% {transform: translateX(500px) rotate(360deg) scale(1.4);}
+}
+
+@-webkit-keyframes animate {
+  0%   {transform: translateX(0) rotate(0deg) scale(0.6);}
+  100% {transform: translateX(500px) rotate(360deg) scale(1.4);}
+}
