@@ -19,3 +19,11 @@
 
   themeChanger.init();
 }(window));
+
+
+$('.flip').click(function(){
+    $(this).find('.flipcard').addClass('flipped').mouseleave(function(){
+        $(this).removeClass('flipped');
+    });
+    return true;
+});

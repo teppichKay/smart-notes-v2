@@ -28,6 +28,9 @@ $themes: (
     .component__list-btn {
       background: lighten($color, 5%);
     }
+    .component__list-item.flipcard{
+      background: darken($color, 5%);
+    }
   }
 
   [data-theme='#{$name}'] {

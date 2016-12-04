@@ -10,6 +10,9 @@ main {
   margin-right: 10%;
 }
 
+section {
+  margin: 10px;
+}
 
 .wrapper1 {
   text-align: center;
@@ -25,7 +28,6 @@ main {
   position: absolute;
   top: 50%;
 }
-
 
 .card-action {
   text-align: center;
@@ -44,8 +46,6 @@ main {
   margin-bottom: 0;
 }
 
-
-
 #textarea {
   color: #fff;
   font-size: 15px;
@@ -54,4 +54,43 @@ main {
 
 .brand-logo {
   margin-left: 5%;
+}
+
+.flip {
+  -webkit-perspective: 800;
+   width: 200px;
+   height: 230px;
+    position: relative;
+    margin: 50px auto;
+}
+.flip .flipcard.flipped {
+  -webkit-transform: rotatex(-180deg);
+}
+.flip .flipcard {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+}
+
+.flip .flipcard .face{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden ;
+  z-index: 2;
+    font-family: Georgia;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+}
+.flip .flipcard .front {
+  position: absolute;
+  z-index: 1;
+    cursor: pointer;
+}
+.flip .flipcard .back {
+  -webkit-transform: rotatex(-180deg);
+    color: black;
+    cursor: pointer;
 }

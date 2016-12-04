@@ -14,16 +14,20 @@
 .default .component__list-btn {
   background: #737373;
 }
+/* line 31, ../sass/index.scss */
+.default .component__list-item.flipcard {
+  background: #595959;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='default'] {
   background: #666;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='default']:hover {
   background: #4d4d4d;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='default'][disabled] {
   background: #666666;
 }
@@ -44,16 +48,20 @@
 .banana .component__list-btn {
   background: #fab23e;
 }
+/* line 31, ../sass/index.scss */
+.banana .component__list-item.flipcard {
+  background: #f89e0c;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='banana'] {
   background: #F9A825;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='banana']:hover {
   background: #e59006;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='banana'][disabled] {
   background: #cc9d52;
 }
@@ -74,16 +82,20 @@
 .cherry .component__list-btn {
   background: #d91b66;
 }
+/* line 31, ../sass/index.scss */
+.cherry .component__list-item.flipcard {
+  background: #ab1550;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='cherry'] {
   background: #C2185B;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='cherry']:hover {
   background: #951246;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='cherry'][disabled] {
   background: #964464;
 }
@@ -104,16 +116,20 @@
 .blueberry .component__list-btn {
   background: #693bc4;
 }
+/* line 31, ../sass/index.scss */
+.blueberry .component__list-item.flipcard {
+  background: #542f9d;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='blueberry'] {
   background: #5E35B1;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='blueberry']:hover {
   background: #49298a;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='blueberry'][disabled] {
   background: #6e6383;
 }
@@ -134,16 +150,20 @@
 .leaf .component__list-btn {
   background: #359039;
 }
+/* line 31, ../sass/index.scss */
+.leaf .component__list-item.flipcard {
+  background: #276a2b;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='leaf'] {
   background: #2E7D32;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='leaf']:hover {
   background: #205823;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='leaf'][disabled] {
   background: #505b51;
 }
@@ -164,31 +184,35 @@
 .nightsky .component__list-btn {
   background: #3647b3;
 }
+/* line 31, ../sass/index.scss */
+.nightsky .component__list-item.flipcard {
+  background: #2a378b;
+}
 
-/* line 33, ../sass/index.scss */
+/* line 36, ../sass/index.scss */
 [data-theme='nightsky'] {
   background: #303F9F;
 }
-/* line 36, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 [data-theme='nightsky']:hover {
   background: #242f78;
 }
-/* line 40, ../sass/index.scss */
+/* line 43, ../sass/index.scss */
 [data-theme='nightsky'][disabled] {
   background: #595d76;
 }
 
-/* line 54, ../sass/index.scss */
+/* line 57, ../sass/index.scss */
 .component {
   background: #EFEFEF;
 }
-/* line 64, ../sass/index.scss */
+/* line 67, ../sass/index.scss */
 .component__list {
   list-style: none;
   padding: 0;
   overflow: hidden;
 }
-/* line 70, ../sass/index.scss */
+/* line 73, ../sass/index.scss */
 .component__list-item {
   float: center;
   width: 90%;
@@ -196,7 +220,7 @@
   margin-left: 1%;
 }
 
-/* line 78, ../sass/index.scss */
+/* line 81, ../sass/index.scss */
 .controls > button {
   border: none;
   color: white;
@@ -206,23 +230,23 @@
   margin-bottom: .5em;
 }
 
-/* line 87, ../sass/index.scss */
+/* line 90, ../sass/index.scss */
 body {
   padding: 0;
 }
 
-/* line 91, ../sass/index.scss */
+/* line 94, ../sass/index.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 95, ../sass/index.scss */
+/* line 98, ../sass/index.scss */
 .credit {
   font-size: .8em;
   padding-top: 1.2em;
 }
 
-/* line 100, ../sass/index.scss */
+/* line 103, ../sass/index.scss */
 .credit a {
   color: #444;
 }
