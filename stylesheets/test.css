@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.wrapper1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.card{
+  width: 200px;
+  height:230px;
+}
+
+.btn-floating {
+  position: absolute;
+  top: 50%;
+}
+
+
+.card-action {
+  text-align: center;
+  font-size: 50%;
+}
+
+.color-btn {
+  text-align: center;
+}
+#archive {
+  text-align: center;
+  width: 95px;
+  height:35px;
+  margin: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+#textarea {
+  color: #fff;
+  font-size: 15px;
+  font-family: Roboto;
+}
+
+.brand-logo {
+  margin-left: 5%;
+}
