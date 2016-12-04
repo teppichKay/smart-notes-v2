@@ -31,10 +31,13 @@ $themes: (
     .component__list-item.flipcard{
       background: darken($color, 5%);
     }
+    .overlay {
+      background: darken($color, 5%);
+    }
   }
 
   [data-theme='#{$name}'] {
-    background: $color;
+    background: lighten($color, 5%);
 
     &:hover {
       background: darken($color, 10%);
@@ -79,11 +82,13 @@ $themes: (
 }
 
 .controls > button {
+  width: 75px;
+  height: 40px;
   border: none;
   color: white;
   padding: .5em;
-  border-radius: .15em;
-  font-weight: bold;
+  border-radius: .35em;
+  margin-right: .5em;
   margin-bottom: .5em;
 }
 
